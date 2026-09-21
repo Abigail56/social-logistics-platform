@@ -1,0 +1,22 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# Local databases and runtime files
+*.db
+*.sqlite
+*.sqlite3
+pytest.log
+
+# Tooling and operating system files
+.vscode/
+.idea/
+.DS_Store
